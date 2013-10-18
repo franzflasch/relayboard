@@ -8,7 +8,7 @@
 	-l		Shows all connected boards
 	-o on|off|tog	Set state to on or off (or toggle)
 	-p <port>|all	Select port (or all ports)
-	-S <serial>	Device serial (find with -l)		
+	-s <serial>	Device serial (find with -l)		
 	-v		Verbose output
 */
 
@@ -279,7 +279,7 @@ int main(int argc, char **argv)
     	
 
 	ftdi_usb_close(&ftdic);
-    	ftdi_deinit(&ftdic);
+	ftdi_deinit(&ftdic);
 	if (f < 0)
 	{
 		return EXIT_FAILURE;

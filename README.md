@@ -8,6 +8,7 @@ Needs libftdi-dev.
 Compiling:
 
 make
+
 make install
 
 Usage:
