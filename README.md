@@ -22,7 +22,7 @@ Options:
          if no option is given, all pins are switched
  -s      serial of relay board, find out with -l
  -v      verbose output
-
+ 
 If no options are given, the program only prints the state of the relay.
 
 This program is used to control an FTDI based relayboard.
