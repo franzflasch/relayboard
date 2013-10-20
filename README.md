@@ -29,6 +29,8 @@ Options:
  
  -v      verbose output
  
+ 
+ 
 If no options are given, the program only prints the state of the relay.
 
 This program is used to control an FTDI based relayboard.
